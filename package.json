@@ -1,0 +1,11 @@
+{
+  "name": "marketingagency1",
+  "version": "1.0.0",
+  "description": "This is a getting started project for bixpark.com templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bixpark.com",
+  "license": "MIT"
+}
