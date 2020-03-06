@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "bixpark.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  }
 }
