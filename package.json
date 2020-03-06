@@ -4,11 +4,14 @@
   "description": "This is a getting started project for bixpark.com templates",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss src/css/main.css  -o public/build/css/main.css -w"
   },
   "author": "bixpark.com",
   "license": "MIT",
   "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.2.0"
   }
 }
