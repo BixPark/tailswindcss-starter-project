@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.gradient {
+    @apply bg-primary-500;
+}
